@@ -4,14 +4,25 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./lib/main.css" type="text/css">
     <title>Rabisco simples app</title>
 </head>
 <body style="margin: 0;">
+
+    <div id="toolbar">
+        <div id="rad">
+            Radius <span id="radval">10</span>
+            <div id="decrad" class="radcontrol">-</div>
+            <div id="incrad" class="radcontrol">+</div>
+        </div>
+    </div>
+    
     <canvas id="canvas" style="display: block;">
         sorry, your broser is rubbissh
     </canvas>
 
     <script src="./lib/main.js"></script>
+    <script src="./lib/radius.js"></script>
     
 </body>
 </html>
